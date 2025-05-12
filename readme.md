@@ -1,4 +1,6 @@
-# Encargo 3 / Evaluación Unidad 3: Aplicación Flask para Cálculo de Notas y Comparador de Nombres
+# Encargo 3 / Evaluación Unidad N3 Aplicación Flask para Cálculo de Notas y Comparador de Nombres
+
+## Alexis Herrera Carreño
 
 Esta es una aplicación web desarrollada con Flask que consta de dos ejercicios:
 
@@ -19,21 +21,30 @@ Sigue estos pasos para configurar el entorno y ejecutar la aplicación:
 1. Clona o descarga este repositorio
 2. Abre una terminal o línea de comandos
 3. Navega hasta la carpeta del proyecto
+  ```bash
+  cd ruta/a/la/carpeta
+  ```
 
-```bash
-cd ruta/a/la/carpeta
-```
+4. Crea un entorno virtual (recomendado)
+  - En Windows:
+    ```bash
+    python -m venv venv
+    venv\Scripts\activate
+    ```
+  - En macOS/Linux:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
-4. Instala las dependencias
-
-```bash
-pip install flask
-```
+5. Instala las dependencias
+  ```bash
+  pip install flask
+  ```
 
 ## Estructura del proyecto
 
 Asegúrate de que la estructura de archivos sea la siguiente:
-
 ```
 proyecto/
 │
@@ -50,21 +61,18 @@ proyecto/
 ## Ejecución de la aplicación
 
 1. Ejecuta el archivo principal
-
-```bash
-python main.py
-```
+  ```bash
+  python main.py
+  ```
 
 2. Abre un navegador web y ve a la siguiente dirección
-
-```
-http://127.0.0.1:5000/
-```
+  ```
+  http://127.0.0.1:5000/
+  ```
 
 3. Interactúa con la aplicación
-
-- Selecciona "Ejercicio 1" para calcular promedios y evaluación
-- Selecciona "Ejercicio 2" para comparar longitud de nombres
+  - Selecciona "Ejercicio 1" para calcular promedios y evaluación
+  - Selecciona "Ejercicio 2" para comparar longitud de nombres
 
 ## Uso de Visual Studio Code (Opcional)
 
@@ -72,8 +80,17 @@ Si utilizas Visual Studio Code para desarrollar este proyecto:
 
 1. Abre la carpeta del proyecto en VS Code
 2. Instala la extensión de Python
+  - Busca "Python" en la pestaña de extensiones e instálala
 
-- Busca "Python" en la pestaña de extensiones e instálala
+3. Configura la ejecución
+  - Presiona F5 o ve a Run > Start Debugging
+  - Selecciona "Python"
+  - Selecciona "Flask"
+  - Selecciona el archivo main.py
+
+4. Activa el entorno virtual
+  - Abre una terminal en VS Code (Terminal > New Terminal)
+  - Activa el entorno virtual como se mencionó anteriormente
 
 ## Ejercicios
 
